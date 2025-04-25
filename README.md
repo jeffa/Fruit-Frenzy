@@ -1,6 +1,6 @@
  # Fruit Frenzy
 
- Fruit Frenzy is a simple, fun, and addictive game built with Python and Tkinter, where players catch falling fruits in a basket. Improve your reflexes, rack up as many points as possible, and try to beat your high score!
+ Fruit Frenzy is a simple, fun, and addictive game built with Python and PyQt5, where players catch falling fruits in a basket. Improve your reflexes, rack up as many points as possible, and try to beat your high score!
 
  ## Table of Contents
  - [Features](#features)
@@ -16,26 +16,26 @@
  - Score increments for each fruit caught
  - Limited lives: avoid missing fruits or you lose lives
  - Game over screen with option to restart
- - Simple UI powered by Tkinter
+ - Simple UI powered by PyQt5
 
  ## Requirements
  - Python 3.6 or higher
- - Tkinter (usually included with most Python distributions)
+ - PyQt5 (installable via pip)
 
  ## Installation
  1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/fruit-frenzy.git
-    cd fruit-frenzy
+    git clone https://github.com/jeffa/Fruit-Frenzy.git
+    cd Fruit-Frenzy
     ```
  2. (Optional) Create and activate a virtual environment:
     ```bash
     python3 -m venv venv
     source venv/bin/activate   # On Windows: venv\Scripts\activate
     ```
- 3. Install dependencies (none beyond the standard library if Tkinter is available):
+ 3. Install dependencies:
     ```bash
-    # No external dependencies
+    pip install PyQt5
     ```
 
  ## Usage
